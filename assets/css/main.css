@@ -1,0 +1,533 @@
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.5px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+*, *:before, *:after {
+    text-indent: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+/* 1. end of reset style css
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+
+.menu-item a.nav-link {
+    font-size: 18px;
+}
+
+.nav-item.menu-item a.nav-link.active {
+    color: #009FD0;
+}
+
+li.nav-item {
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.navbar-brand.brand-logo {
+    width: 14%;
+}
+
+/* end of navbar 
+------------------------------------------ */
+
+/* 2. end of header style css
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+
+.main-section {
+    margin-top: 20px;
+}
+
+.main-content {
+    background-color: #FFF1BD;
+}
+
+.content p {
+    color: #000;
+    font-size: 30px;
+    padding-left: 86px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+
+.main-content p span {
+    color: #009FD0;
+}
+
+.content button {
+    border: 0;
+    background: transparent;
+    background-color: #009FD0;
+    padding: 15px 38px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* 3. end of main section style css
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+
+.message-section {
+    position: relative;
+    margin: 70px 0 120px 0;
+}
+
+.message-media::before{
+    content: "";
+    display: block;
+    z-index: -1;
+    position: absolute;
+    border: 15px solid #009FD0;
+    right: 26%;
+    top: 24px;
+    padding: 235px 210px;
+}
+
+.message-media img {
+    width: 80%;
+}
+
+.message-content p {
+    line-height: 2;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+.message-content button {
+    background: transparent;
+    background-color: #009FD0;
+    border: 0;
+    padding: 10px 40px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* 4. end of message section style css
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+
+.testimonial-section {
+    position: relative;
+    padding: 80px 0;
+    background-color: #84dbff0f;
+}
+
+.testimonial-section h2 {
+    margin-bottom: 80px;
+}
+
+.testimonial-section span{
+    content: "";
+    display: block;
+    width: 14%;
+    height: 30px;
+    background: #84DBFF;
+    position: absolute;
+    top: 100px;
+    right: 43%;
+    z-index: -1;
+}
+
+.single-testimonial img {
+    width: 50%;
+}
+.single-testimonial p {
+    font-size: 17px;
+    line-height: 37px;
+    font-weight: 500;
+    width: 86%;
+    margin: 0 0 0 auto;
+}
+
+/* 5. end of testimonial section style css
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+
+.table-section {
+    margin: 50px 0 80px 0;
+    position: relative;
+}
+
+.table-section span{
+    content: "";
+    display: block;
+    width: 32%;
+    height: 30px;
+    background: #84DBFF;
+    position: absolute;
+    top: 21px;
+    right: 34%;
+    z-index: -1;
+}
+.table-section h2 {
+    margin-bottom: 90px;
+}
+
+.table-gallary.gallary-one {
+    padding-top: 80px;
+}
+
+.table-gallary img {
+   width: 80%;
+}
+
+.table-gallary h5 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.table-gallary li {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.table-gallary a {
+    color: #009FD0;
+}
+
+.table-content {
+    width: 80%;
+}
+
+.table-content h5 {
+    margin-top: 30px;
+    font-size: 22px;
+}
+.table-content li {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 2;
+}
+.table-content a {
+    color: #009FD0;
+}
+
+/* 6. end of table section style css
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+
+.slider-section {
+    position: relative;
+    background-color: #84dbff14;
+    padding: 70px 0;
+}
+
+.slider-section span.title-shadow {
+    content: "";
+    display: block;
+    width: 18%;
+    height: 30px;
+    background: #84DBFF;
+    position: absolute;
+    top: 90px;
+    right: 41%;
+    z-index: -1;
+}
+
+.slider-media {
+    margin-top: 65px;
+}
+
+.slider-media img {
+    width: 10%;
+}
+
+.slider-media p {
+    width: 50%;
+    margin: 25px auto 15px auto;
+    line-height: 25px;
+    font-size: 17px;
+    color: #666666;
+}
+
+.slider-media span i {
+    color: #84DBFF;
+    font-size: 20px;
+}
+
+.slider-media h5 {
+    color: #666666;
+}
+
+.slider-media h6 {
+    color: #84DBFF;
+}
+
+/* 7. end of slider section style css
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+
+.gallary-section {
+    margin: 80px 0 80px 0;
+    position: relative;
+}
+
+.gallary-section span{
+    content: "";
+    display: block;
+    width: 10%;
+    height: 30px;
+    background: #84DBFF;
+    position: absolute;
+    top: 21px;
+    right: 45%;
+    z-index: -1;
+}
+
+.gallary-section h2 {
+    margin-bottom: 60px;
+}
+
+.single-gallary img {
+   width: 80%;
+}
+
+.single-gallary h5 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.single-gallary p {
+    font-size: 18px;
+}
+
+.single-content {
+    width: 80%;
+}
+
+.single-content p {
+    font-size: 18px;
+}
+
+.single-content h5 {
+    margin-top: 30px;
+}
+
+.single-gallary.gallary-one {
+    padding-top: 100px;
+}
+
+/* 8. end of gallary section style css
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+
+.form-section {
+    position: relative;
+}
+
+.form-section h2 {
+    margin-bottom: 80px;
+}
+
+.form-section span {
+    content: "";
+    display: block;
+    width: 14%;
+    height: 30px;
+    background: #84DBFF;
+    position: absolute;
+    top: 21px;
+    right: 43%;
+    z-index: -1;
+}
+
+.form-wrapper {
+    width: 95%;
+}
+
+.form-wrapper input {
+    padding: 15px 10px;
+}
+
+.form-wrapper textarea {
+    padding: 10px 10px 60px;
+}
+
+.form-wrapper input::-webkit-input-placeholder {
+    color: #AAA8A8;
+}
+
+.form-wrapper input::-moz-placeholder {
+    color: #AAA8A8;
+}
+
+.form-wrapper input:-ms-input-placeholder {
+    color: #AAA8A8;
+}
+
+.form-wrapper input::-ms-input-placeholder {
+    color: #AAA8A8;
+}
+
+.form-wrapper input::placeholder {
+    color: #AAA8A8;
+}
+
+.form-wrapper textarea::-webkit-input-placeholder {
+    color: #AAA8A8;
+}
+
+.form-wrapper textarea::-moz-placeholder {
+    color: #AAA8A8;
+}
+
+.form-wrapper textarea:-ms-input-placeholder {
+    color: #AAA8A8;
+}
+
+.form-wrapper textarea::-ms-input-placeholder {
+    color: #AAA8A8;
+}
+
+.form-wrapper textarea::placeholder {
+    color: #AAA8A8;
+}
+
+.form-control.input-focus:focus {
+    color: #495057;
+    border-color: #ddd;
+    outline: 0;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+button.form-button {
+    background: transparent;
+    background-color: #009FD0;
+    color: #fff;
+    padding: 10px 240px;
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+/* end of form wrapper
+------------------------------------------ */
+
+.contact-social {
+    margin-top: 20px;
+}
+
+.contact-list h6 {
+    font-size: 27px;
+}
+
+.contact-list p {
+    font-size: 24px;
+    color: #101935;
+    font-weight: 500;
+}
+
+.contact-list h5 {
+    font-size: 23px;
+    color: #101935;
+}
+
+.contact-list span {
+    font-size: 16px;
+}
+
+.social-list {
+    margin-top: 15px;
+}
+
+.social-list ul li {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    color: #fff;
+}
+
+.social-list ul li.bg-fab {
+    background-color: #3B5998;
+}
+
+.social-list ul li.bg-twit {
+    background-color: #1DA1F2;
+}
+.social-list ul li.bg-link {
+    background-color: #0077B5;
+}
+.social-list ul li.bg-gog {
+    background-color: #DD4B39;
+}
+
+/* end of contact social
+------------------------------------------ */
+
+/* 9. end of form section style css
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+
+.footer-section {
+    background-color: #082C4B;
+    padding: 40px 0 25px 0;
+    margin-top: 90px;
+}
+
+.footer-list ul li {
+    color: #fff;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+/* end of footer list
+------------------------------------------ */
+
+.footer-brand img {
+    width: 30%;
+}
+
+/* end of footer brand
+------------------------------------------ */
+
+.footer-copyright {
+    border-top: 2px solid #3b607f;
+    margin-top: 15px;
+}
+
+.footer-copyright h6 {
+    color: #c5c4c4;
+    font-size: 14px;
+}
+
+/* end of footer bottom
+------------------------------------------ */
+
+/* 10. end of footer section style css
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/

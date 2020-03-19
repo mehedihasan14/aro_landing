@@ -1,0 +1,203 @@
+@media only screen and (max-width: 1200px) {
+	.container {
+		width: 991px;
+    }
+    button.form-button {
+      padding: 10px 197px;
+  }
+
+}
+
+
+
+/* 1. end of max width 1200 responsive
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+
+@media only screen and (max-width: 992px) {
+	.container {
+		width: 767px;
+    }
+    .content p {
+      font-size: 27px;
+      padding-left: 92px;
+    }
+    .single-testimonial p {
+      width: 100%;
+    }
+    .message-media::before {
+      right: 26%;
+      top: 24px;
+      padding: 169px 146px;
+    }
+    .table-section span {
+      width: 42%;
+      right: 29%;
+    }
+    .slider-section span.title-shadow {
+      width: 24%;
+      right: 38%;
+    }
+    .gallary-section span {
+      width: 12%;
+      right: 44%;
+    }
+    .form-section span {
+      width: 19%;
+      right: 41%;
+    }
+    button.form-button {
+      padding: 10px 144px;
+    }
+    .footer-list ul li {
+       margin-right: 14px;
+       font-size: 15px;
+    }
+    .footer-brand img {
+        width: 40%;
+    }
+}   
+
+/* 2. end of max width 992 responsive
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+
+@media only screen and (max-width: 768px) {
+    .container {
+		width: 575px;
+    }
+    .content p {
+      font-size: 22px;
+      padding-left: 92px;
+    }
+    .content button {
+      padding: 12px 35px;
+      font-size: 16px;
+    }
+    .message-section {
+      margin: 70px 0 70px 0;
+    }
+    .testimonial-section {
+      padding: 50px 0;
+  }
+    .testimonial-section h2 {
+      margin-bottom: 60px;
+    }
+    .testimonial-section span {
+      width: 18%;
+      right: 41%;
+      height: 4%;
+      top: 11%;
+    }
+    .table-section {
+      margin: 50px 0 70px 0;
+    }
+    .table-section h2 {
+      margin-bottom: 60px;
+      font-size: 25px;
+  }
+    .table-section span {
+      width: 42%;
+      right: 29%;
+      top: 1.5%;
+      height: 2%;
+    }
+    .table-gallary.gallary-one {
+      padding-top: 60px;
+    }
+    .table-content h5 {
+      margin-top: 20px;
+      font-size: 17px;
+    }
+    .table-gallary h5 {
+      font-size: 17px;
+      margin-top: 20px;
+    }
+    .table-content li {
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    .table-gallary li {
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    .slider-section {
+      padding: 50px 0;
+    }
+    .slider-section {
+      font-size: 25px;
+    }
+    .slider-section span.title-shadow {
+      width: 31%;
+      right: 35%;
+    }
+    .slider-media p {
+      width: 59%;
+    }
+    .gallary-section {
+      margin: 50px 0 50px 0;
+    }
+    .gallary-section span {
+      width: 16%;
+      right: 42%;
+      top: 2%;
+      height: 3%;
+    }
+    .single-gallary.gallary-one {
+      padding-top: 70px;
+    }
+    .single-content p {
+      font-size: 15px;
+    }
+    .single-gallary p {
+      font-size: 15px;
+    }
+    .form-section h2 {
+      margin-bottom: 60px;
+    }
+    .form-section span {
+      width: 22%;
+      right: 39%;
+      top: 3.5%;
+      height: 5%;
+    }
+    .form-wrapper input {
+      padding: 10px 10px;
+  }
+  .form-wrapper textarea {
+    padding: 10px 10px 40px;
+  }
+  button.form-button {
+    font-size: 18px;
+  }
+  button.form-button {
+    padding: 6px 99px;
+  }
+  .contact-list h6 {
+    font-size: 18px;
+  }
+  .contact-list p {
+    font-size: 18px;
+  }
+  .contact-list h5 {
+    font-size: 17px;
+  }
+  .footer-section {
+    margin-top: 75px;
+  }
+  
+}
+
+/* 3. end of max width 768 responsive
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+
+@media only screen and (max-width: 576px) {
+    .container {
+		width: 350%;
+    }
+}
+
+/* 4. end of max width 576 responsive
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
